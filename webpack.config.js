@@ -5,6 +5,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: ["url-loader?limit=10000", "img-loader"]
+      },
+      {
+        test: /\.css$/,
+        use: [{ loader: "style-loader/url" }, { loader: "file-loader" }]
+      },
+      {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ["babel-loader"]
