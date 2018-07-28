@@ -23,9 +23,10 @@
   "dependencies": {
     "babel-preset-env": "^1.6.1",
     "css": "^2.2.3",
+    "eslint": "^5.2.0",
     "file-loader": "^1.1.11",
-    "img-loader": "^3.0.0",
     "imagemin": "^6.0.0",
+    "img-loader": "^3.0.0",
     "loader": "^2.1.1",
     "prop-types": "^15.6.2",
     "react": "^16.2.0",

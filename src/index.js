@@ -7,7 +7,7 @@ const Title = () => (
     <p>Image below checks to make sure npm image-loader & webpack is working</p>
     <img
       style={{ width: 150 }}
-      src={require("../dist/img/spaghetti.jpg")}
+      src={require("../dist/img/react.jpg")}
       alt="bank"
     />
   </div>
